@@ -1,0 +1,12 @@
+.loginImg {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 9% 51%);
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .loginImg {
+        clip-path: none; 
+    }
+}
